@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Creating First Form</title>
+</head>
+<body>
+<center>
+	<h2>Welcome to the world famous fast food center</h2>
+<form name="F1">
+	<h3>Select the menu items of your choice -</h3>
+	<table border="0">
+		<tr valign="top">
+			<td><h4>Major Dishes :</h4>
+			<select name="s1" multiple>
+				<option value="Mc Burger->80" selected>Mc Burger</option>
+				<option value="Fish Fillets->70"> Fish Fillets</option>
+				<option value="Chicken Burger->60">Chicken Burger</option>
+				<option value="Veg. Burger->45">Veg. Burger</option>
+			</select>
+		</td>	
+			<br/><br/>
+			<td>
+				<h4>Starters :</h4>
+				<select name="s2" size="2" multiple>
+					<option value="French Fries->40">French Fries</option>
+					<option value="Nuggets->50" >Nuggets</option>
+					<option value="Hash Browns->55">Hash Browns</option>
+					<option value="McAloo Tikki->">Mc Aloo Tikki</option>
+				</select>
+			</td>
+			<td>
+				<h4>Miscellaneous</h4>
+				<select name="s3">
+					<option value=" ">Check These Out</option>
+					<option value="Milkshakes->35">Milkshakes</option>
+					<option value="Soft Drinks->20">Soft Drinks</option>
+					<option value="Softy->25">Softy</option>
+				</select>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td colspan="2">
+				<h3>The items selected from the menu are :</h3>
+				<textarea name="TA1" rows="10" cols="50"></textarea>
+			</td>
+			<td valign="middle">
+				<input type="submit" value="total cost"/>
+				<input type="reset" value="clear"/>
+			</td>
+		</tr>
+	</table>
+	
+</form>
+</center>
+</body>
+</html>
